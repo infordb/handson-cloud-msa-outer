@@ -12,8 +12,8 @@ spec:
         app: eshop-cartservice
     spec:
       containers:
-        - name: gcr.io/architect-certification-289902/27/eshop-cartservice:1
-          image: eshop-cartservice
+        - name: eshop-cartservice
+          image: gcr.io/architect-certification-289902/27/eshop-cartservice:1
           ports:
           - containerPort: 8091
           env:
